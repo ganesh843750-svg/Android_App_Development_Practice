@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are the languages you know?"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="@color/blue"
+        />
+    <CheckBox
+        android:id="@+id/check_kotlin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Kotlin"
+        android:layout_gravity="center"
+        android:background="@color/lime"
+        android:layout_marginTop="50dp"
+        />
+    <CheckBox
+        android:id="@+id/check_java"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:layout_gravity="center"
+        android:background="@color/lime"
+        />
+    <CheckBox
+        android:id="@+id/check_py"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:layout_gravity="center"
+        android:background="@color/lime"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:backgroundTint="@color/red"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="@color/blue"
+        android:visibility="invisible"
+        android:id="@+id/tv"/>
+
+
+
+
+
+
+</LinearLayout>
