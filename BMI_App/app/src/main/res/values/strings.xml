@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mayapp</string>
+    <string name="text">Plese Enter your Ditails Above </string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="enter_your_weight_in_kg">Enter your Weight in KG</string>
+    <string name="enter_your_height_in_meters">Enter your Height in Meters</string>
+    <string name="calculate">Calculate BMI</string>
+</resources>
