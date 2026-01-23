@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
             }
             tv.text = sb.toString()
             tv.visibility = View.VISIBLE
-
         }
     }
 }
