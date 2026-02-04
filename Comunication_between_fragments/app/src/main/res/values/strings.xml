@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Comunication_between_fragments</string>
+    <string name="btn_text">Send</string>
+    <string name="et_hint">Enter some data</string>
+</resources>

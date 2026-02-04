@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Drawer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#DE00FD</item>
+        <item name="colorPrimaryVariant">#FD00BC</item>
+        <item name="colorSecondary">#C7B83C</item>
+        <item name="colorSecondaryVariant">#AA24BC</item>
+        <item name="colorOnPrimary">#E000FD</item>
+        <item name="colorOnSecondary">#E000FD</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Drawer" parent="Base.Theme.Drawer" />
+
+    <style name="Theme.Drawer.MyactionBar" parent="Base.Theme.Drawer">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+    </style>
+</resources>
